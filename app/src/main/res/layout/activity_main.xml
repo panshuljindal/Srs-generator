@@ -14,7 +14,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0">
+        app:layout_constraintVertical_bias="0.0">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
@@ -54,8 +54,8 @@
                 android:id="@+id/projectNameTextView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="35dp"
-                android:layout_marginLeft="35dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
                 android:layout_marginTop="15dp"
                 android:fontFamily="@font/sf_pro_text_regular"
                 android:text="1.1 Project Name"
@@ -65,16 +65,26 @@
 
             <EditText
                 android:id="@+id/editTextTextPersonName"
-                android:layout_width="227dp"
+                android:layout_width="0dp"
                 android:layout_height="37dp"
-                android:layout_marginStart="56dp"
-                android:layout_marginLeft="56dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
                 android:layout_marginTop="12dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginRight="50dp"
+                android:background="@drawable/edittext_backgrounf"
                 android:ems="10"
+                android:fontFamily="@font/sf_pro_text_regular"
+
                 android:hint="Enter Project Name"
                 android:inputType="textPersonName"
-                android:textColorHint="#1b1b1b"
+
+                android:paddingLeft="10dp"
+                android:textColor="#1b1b1b"
+                android:textColorHint="#1C1C1E"
                 android:textSize="15dp"
+
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/projectNameTextView" />
 
@@ -82,8 +92,8 @@
                 android:id="@+id/preparedByTextView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="32dp"
-                android:layout_marginLeft="32dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
                 android:layout_marginTop="15dp"
                 android:fontFamily="@font/sf_pro_text_regular"
                 android:text="1.2 Prepared By"
@@ -93,16 +103,23 @@
 
             <EditText
                 android:id="@+id/editTextTextPreparedBy"
-                android:layout_width="227dp"
+                android:layout_width="0dp"
                 android:layout_height="37dp"
-                android:layout_marginStart="56dp"
-                android:layout_marginLeft="56dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
                 android:layout_marginTop="12dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginRight="50dp"
+                android:background="@drawable/edittext_backgrounf"
                 android:ems="10"
                 android:hint="Enter Name"
                 android:inputType="textPersonName"
-                android:textColorHint="#1b1b1b"
+
+                android:paddingLeft="10dp"
+                android:textColor="#1b1b1b"
+                android:textColorHint="#1C1C1E"
                 android:textSize="15dp"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/preparedByTextView" />
 
@@ -110,8 +127,8 @@
                 android:id="@+id/orgNameTextView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="32dp"
-                android:layout_marginLeft="32dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
                 android:layout_marginTop="15dp"
                 android:fontFamily="@font/sf_pro_text_regular"
                 android:text="1.3 Organisation Name"
@@ -121,16 +138,24 @@
 
             <EditText
                 android:id="@+id/editTextTextOrgName"
-                android:layout_width="227dp"
+                android:layout_width="0dp"
                 android:layout_height="37dp"
-                android:layout_marginStart="56dp"
-                android:layout_marginLeft="56dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
                 android:layout_marginTop="12dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginRight="50dp"
+                android:background="@drawable/edittext_backgrounf"
                 android:ems="10"
                 android:hint="Enter Organisation Name"
                 android:inputType="textPersonName"
-                android:textColorHint="#1b1b1b"
+
+                android:paddingLeft="10dp"
+                android:textColor="#1b1b1b"
+                android:textColorHint="#1C1C1E"
                 android:textSize="15dp"
+
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/orgNameTextView" />
 
@@ -151,8 +176,8 @@
                 android:id="@+id/goalTextView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="35dp"
-                android:layout_marginLeft="35dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
                 android:layout_marginTop="15dp"
                 android:fontFamily="@font/sf_pro_text_regular"
                 android:text="2.1 What is the goal of the project? "
@@ -162,16 +187,25 @@
 
             <EditText
                 android:id="@+id/editTextTextGoal"
-                android:layout_width="227dp"
+                android:layout_width="0dp"
                 android:layout_height="37dp"
-                android:layout_marginStart="56dp"
-                android:layout_marginLeft="56dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
                 android:layout_marginTop="12dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginRight="50dp"
+                android:background="@drawable/edittext_backgrounf"
+
                 android:ems="10"
                 android:hint="Enter Answer"
                 android:inputType="textPersonName"
-                android:textColorHint="#1b1b1b"
+                android:paddingLeft="10dp"
+                android:textColor="#1b1b1b"
+
+
+                android:textColorHint="#1C1C1E"
                 android:textSize="15dp"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/goalTextView" />
 
@@ -179,8 +213,8 @@
                 android:id="@+id/problemTextView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="35dp"
-                android:layout_marginLeft="35dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
                 android:layout_marginTop="15dp"
                 android:fontFamily="@font/sf_pro_text_regular"
                 android:text="2.2 What problem does the project solve? "
@@ -190,16 +224,25 @@
 
             <EditText
                 android:id="@+id/editTextTextProblem"
-                android:layout_width="227dp"
+                android:layout_width="0dp"
                 android:layout_height="37dp"
-                android:layout_marginStart="56dp"
-                android:layout_marginLeft="56dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
                 android:layout_marginTop="12dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginRight="50dp"
+                android:background="@drawable/edittext_backgrounf"
+
                 android:ems="10"
                 android:hint="Enter Answer"
                 android:inputType="textPersonName"
-                android:textColorHint="#1b1b1b"
+                android:paddingLeft="10dp"
+                android:textColor="#1b1b1b"
+
+
+                android:textColorHint="#1C1C1E"
                 android:textSize="15dp"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/problemTextView" />
 
@@ -207,8 +250,8 @@
                 android:id="@+id/visionTextView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="35dp"
-                android:layout_marginLeft="35dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
                 android:layout_marginTop="15dp"
                 android:fontFamily="@font/sf_pro_text_regular"
                 android:text="2.3 What is the vision and scope?  "
@@ -218,16 +261,25 @@
 
             <EditText
                 android:id="@+id/editTextTextVision"
-                android:layout_width="227dp"
+                android:layout_width="0dp"
                 android:layout_height="37dp"
-                android:layout_marginStart="56dp"
-                android:layout_marginLeft="56dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
                 android:layout_marginTop="12dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginRight="50dp"
+                android:background="@drawable/edittext_backgrounf"
+
                 android:ems="10"
                 android:hint="Enter Answer"
                 android:inputType="textPersonName"
-                android:textColorHint="#1b1b1b"
+                android:paddingLeft="10dp"
+                android:textColor="#1b1b1b"
+
+
+                android:textColorHint="#1C1C1E"
                 android:textSize="15dp"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/visionTextView" />
 
@@ -248,8 +300,8 @@
                 android:id="@+id/addPeople"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="35dp"
-                android:layout_marginLeft="35dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
                 android:layout_marginTop="15dp"
                 android:fontFamily="@font/sf_pro_text_regular"
                 android:text="3.1 Add People Details "
@@ -262,8 +314,8 @@
                 android:id="@+id/addPeopleName"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="50dp"
-                android:layout_marginLeft="50dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginLeft="35dp"
                 android:layout_marginTop="15dp"
                 android:fontFamily="@font/sf_pro_text_regular"
                 android:text="3.1.1 Name "
@@ -273,16 +325,25 @@
 
             <EditText
                 android:id="@+id/editTextTextAddPeopleName"
-                android:layout_width="227dp"
+                android:layout_width="0dp"
                 android:layout_height="37dp"
-                android:layout_marginStart="76dp"
-                android:layout_marginLeft="76dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginLeft="35dp"
                 android:layout_marginTop="12dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginRight="50dp"
+                android:background="@drawable/edittext_backgrounf"
+
                 android:ems="10"
                 android:hint="Enter Name"
                 android:inputType="textPersonName"
-                android:textColorHint="#1b1b1b"
+                android:paddingLeft="10dp"
+                android:textColor="#1b1b1b"
+
+
+                android:textColorHint="#1C1C1E"
                 android:textSize="15dp"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/addPeopleName" />
 
@@ -290,8 +351,8 @@
                 android:id="@+id/addPeopleAge"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="50dp"
-                android:layout_marginLeft="50dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginLeft="35dp"
                 android:layout_marginTop="15dp"
                 android:fontFamily="@font/sf_pro_text_regular"
                 android:text="3.1.3 Age "
@@ -301,16 +362,25 @@
 
             <EditText
                 android:id="@+id/editTextTextAddPeopleAge"
-                android:layout_width="227dp"
+                android:layout_width="0dp"
                 android:layout_height="37dp"
-                android:layout_marginStart="76dp"
-                android:layout_marginLeft="76dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginLeft="35dp"
                 android:layout_marginTop="12dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginRight="50dp"
+                android:background="@drawable/edittext_backgrounf"
+
                 android:ems="10"
                 android:hint="Enter Age"
                 android:inputType="textPersonName"
-                android:textColorHint="#1b1b1b"
+                android:paddingLeft="10dp"
+                android:textColor="#1b1b1b"
+
+
+                android:textColorHint="#1C1C1E"
                 android:textSize="15dp"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/addPeopleAge" />
 
@@ -318,8 +388,8 @@
                 android:id="@+id/addPeopleDesignation"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="50dp"
-                android:layout_marginLeft="50dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginLeft="35dp"
                 android:layout_marginTop="15dp"
                 android:fontFamily="@font/sf_pro_text_regular"
                 android:text="3.1.3 Designation "
@@ -329,16 +399,25 @@
 
             <EditText
                 android:id="@+id/editTextTextAddPeopleDesignation"
-                android:layout_width="227dp"
+                android:layout_width="0dp"
                 android:layout_height="37dp"
-                android:layout_marginStart="76dp"
-                android:layout_marginLeft="76dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginLeft="35dp"
                 android:layout_marginTop="12dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginRight="50dp"
+                android:background="@drawable/edittext_backgrounf"
+
                 android:ems="10"
                 android:hint="Enter Designation"
                 android:inputType="textPersonName"
-                android:textColorHint="#1b1b1b"
+                android:paddingLeft="10dp"
+                android:textColor="#1b1b1b"
+
+
+                android:textColorHint="#1C1C1E"
                 android:textSize="15dp"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/addPeopleDesignation" />
 
@@ -346,8 +425,8 @@
                 android:id="@+id/addPeopleSkills"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="50dp"
-                android:layout_marginLeft="50dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginLeft="35dp"
                 android:layout_marginTop="15dp"
                 android:fontFamily="@font/sf_pro_text_regular"
                 android:text="3.1.4 Skills "
@@ -357,16 +436,25 @@
 
             <EditText
                 android:id="@+id/editTextTextAddPeopleSkills"
-                android:layout_width="227dp"
+                android:layout_width="0dp"
                 android:layout_height="37dp"
-                android:layout_marginStart="76dp"
-                android:layout_marginLeft="76dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginLeft="35dp"
                 android:layout_marginTop="12dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginRight="50dp"
+                android:background="@drawable/edittext_backgrounf"
+
                 android:ems="10"
                 android:hint="Enter Skills"
                 android:inputType="textPersonName"
-                android:textColorHint="#1b1b1b"
+                android:paddingLeft="10dp"
+                android:textColor="#1b1b1b"
+
+
+                android:textColorHint="#1C1C1E"
                 android:textSize="15dp"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/addPeopleSkills" />
 
@@ -374,8 +462,8 @@
                 android:id="@+id/addPeopleJob"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="50dp"
-                android:layout_marginLeft="50dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginLeft="35dp"
                 android:layout_marginTop="15dp"
                 android:fontFamily="@font/sf_pro_text_regular"
                 android:text="3.1.5 Job to be Done "
@@ -385,16 +473,25 @@
 
             <EditText
                 android:id="@+id/editTextTextAddPeopleJob"
-                android:layout_width="227dp"
+                android:layout_width="0dp"
                 android:layout_height="37dp"
-                android:layout_marginStart="76dp"
-                android:layout_marginLeft="76dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginLeft="35dp"
                 android:layout_marginTop="12dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginRight="50dp"
+                android:background="@drawable/edittext_backgrounf"
+
                 android:ems="10"
-                android:hint="Enter Job to be Done"
+                android:hint="Enter Job to be done"
                 android:inputType="textPersonName"
-                android:textColorHint="#1b1b1b"
+                android:paddingLeft="10dp"
+                android:textColor="#1b1b1b"
+
+
+                android:textColorHint="#1C1C1E"
                 android:textSize="15dp"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/addPeopleJob" />
 
@@ -413,10 +510,10 @@
 
             <TextView
                 android:id="@+id/projDescOrigin"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="35dp"
-                android:layout_marginLeft="35dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
                 android:layout_marginTop="15dp"
                 android:fontFamily="@font/sf_pro_text_regular"
                 android:text="4.1 What is the origin of the product being specified in this SRS? "
@@ -427,16 +524,25 @@
 
             <EditText
                 android:id="@+id/editTextTextprojDescOrigin"
-                android:layout_width="227dp"
+                android:layout_width="0dp"
                 android:layout_height="37dp"
-                android:layout_marginStart="56dp"
-                android:layout_marginLeft="56dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
                 android:layout_marginTop="12dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginRight="50dp"
+                android:background="@drawable/edittext_backgrounf"
+
                 android:ems="10"
                 android:hint="Enter Answer"
                 android:inputType="textPersonName"
-                android:textColorHint="#1b1b1b"
+                android:paddingLeft="10dp"
+                android:textColor="#1b1b1b"
+
+
+                android:textColorHint="#1C1C1E"
                 android:textSize="15dp"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/projDescOrigin" />
 
@@ -444,8 +550,8 @@
                 android:id="@+id/projDescProdType"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="35dp"
-                android:layout_marginLeft="35dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
                 android:layout_marginTop="15dp"
                 android:fontFamily="@font/sf_pro_text_regular"
                 android:text="4.2 Product Type "
@@ -457,16 +563,25 @@
 
             <EditText
                 android:id="@+id/editTextTextProdType"
-                android:layout_width="227dp"
+                android:layout_width="0dp"
                 android:layout_height="37dp"
-                android:layout_marginStart="56dp"
-                android:layout_marginLeft="56dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
                 android:layout_marginTop="12dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginRight="50dp"
+                android:background="@drawable/edittext_backgrounf"
+
                 android:ems="10"
                 android:hint="Enter Product Type"
                 android:inputType="textPersonName"
-                android:textColorHint="#1b1b1b"
+                android:paddingLeft="10dp"
+                android:textColor="#1b1b1b"
+
+
+                android:textColorHint="#1C1C1E"
                 android:textSize="15dp"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/projDescProdType" />
 
@@ -474,8 +589,8 @@
                 android:id="@+id/projDescProdFunc"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="35dp"
-                android:layout_marginLeft="35dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
                 android:layout_marginTop="15dp"
                 android:fontFamily="@font/sf_pro_text_regular"
                 android:text="4.3 Product Functions "
@@ -489,11 +604,11 @@
                 android:id="@+id/projDescProdFuncName"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="50dp"
-                android:layout_marginLeft="50dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginLeft="35dp"
                 android:layout_marginTop="15dp"
                 android:fontFamily="@font/sf_pro_text_regular"
-                android:text="4.3.1 Product Function Name "
+                android:text="4.3.1 Product Function"
                 android:textColor="#000"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
@@ -502,16 +617,25 @@
 
             <EditText
                 android:id="@+id/editTextTextProdFuncName"
-                android:layout_width="227dp"
+                android:layout_width="0dp"
                 android:layout_height="37dp"
-                android:layout_marginStart="76dp"
-                android:layout_marginLeft="76dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginLeft="35dp"
                 android:layout_marginTop="12dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginRight="50dp"
+                android:background="@drawable/edittext_backgrounf"
+
                 android:ems="10"
-                android:hint="Enter Product Function Name"
+                android:hint="Enter Product Function"
                 android:inputType="textPersonName"
-                android:textColorHint="#1b1b1b"
+                android:paddingLeft="10dp"
+                android:textColor="#1b1b1b"
+
+
+                android:textColorHint="#1C1C1E"
                 android:textSize="15dp"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/projDescProdFuncName" />
 
@@ -519,8 +643,8 @@
                 android:id="@+id/projDescProdFuncDesc"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="50dp"
-                android:layout_marginLeft="50dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginLeft="35dp"
                 android:layout_marginTop="15dp"
                 android:fontFamily="@font/sf_pro_text_regular"
                 android:text="4.3.2 Brief Use of Description "
@@ -532,16 +656,25 @@
 
             <EditText
                 android:id="@+id/editTextTextProdFuncDesc"
-                android:layout_width="227dp"
+                android:layout_width="0dp"
                 android:layout_height="37dp"
-                android:layout_marginStart="76dp"
-                android:layout_marginLeft="76dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginLeft="35dp"
                 android:layout_marginTop="12dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginRight="50dp"
+                android:background="@drawable/edittext_backgrounf"
+
                 android:ems="10"
                 android:hint="Enter Answer"
                 android:inputType="textPersonName"
-                android:textColorHint="#1b1b1b"
+                android:paddingLeft="10dp"
+                android:textColor="#1b1b1b"
+
+
+                android:textColorHint="#1C1C1E"
                 android:textSize="15dp"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/projDescProdFuncDesc" />
 
@@ -549,8 +682,8 @@
                 android:id="@+id/projDescProdFuncActions"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="50dp"
-                android:layout_marginLeft="50dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginLeft="35dp"
                 android:layout_marginTop="15dp"
                 android:fontFamily="@font/sf_pro_text_regular"
                 android:text="4.3.3 Actions "
@@ -562,16 +695,25 @@
 
             <EditText
                 android:id="@+id/editTextTextProdFuncActions"
-                android:layout_width="227dp"
+                android:layout_width="0dp"
                 android:layout_height="37dp"
-                android:layout_marginStart="76dp"
-                android:layout_marginLeft="76dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginLeft="35dp"
                 android:layout_marginTop="12dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginRight="50dp"
+                android:background="@drawable/edittext_backgrounf"
+
                 android:ems="10"
                 android:hint="Enter Answer"
                 android:inputType="textPersonName"
-                android:textColorHint="#1b1b1b"
+                android:paddingLeft="10dp"
+                android:textColor="#1b1b1b"
+
+
+                android:textColorHint="#1C1C1E"
                 android:textSize="15dp"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/projDescProdFuncActions" />
 
@@ -579,8 +721,8 @@
                 android:id="@+id/projDescOperating"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="35dp"
-                android:layout_marginLeft="35dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
                 android:layout_marginTop="15dp"
                 android:fontFamily="@font/sf_pro_text_regular"
                 android:text="4.4 Operating Environment "
@@ -594,8 +736,8 @@
                 android:id="@+id/projDescEnvName"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="50dp"
-                android:layout_marginLeft="50dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginLeft="35dp"
                 android:layout_marginTop="15dp"
                 android:fontFamily="@font/sf_pro_text_regular"
                 android:text="4.4.1 Environment Name "
@@ -607,16 +749,25 @@
 
             <EditText
                 android:id="@+id/editTextTextEnvName"
-                android:layout_width="227dp"
+                android:layout_width="0dp"
                 android:layout_height="37dp"
-                android:layout_marginStart="76dp"
-                android:layout_marginLeft="76dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginLeft="35dp"
                 android:layout_marginTop="12dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginRight="50dp"
+                android:background="@drawable/edittext_backgrounf"
+
                 android:ems="10"
                 android:hint="Enter Environment Name"
                 android:inputType="textPersonName"
-                android:textColorHint="#1b1b1b"
+                android:paddingLeft="10dp"
+                android:textColor="#1b1b1b"
+
+
+                android:textColorHint="#1C1C1E"
                 android:textSize="15dp"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/projDescEnvName" />
 
@@ -624,8 +775,8 @@
                 android:id="@+id/projDescEnvReason"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="50dp"
-                android:layout_marginLeft="50dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginLeft="35dp"
                 android:layout_marginTop="15dp"
                 android:fontFamily="@font/sf_pro_text_regular"
                 android:text="4.4.2 Environment Reason"
@@ -637,16 +788,25 @@
 
             <EditText
                 android:id="@+id/editTextTextEnvReason"
-                android:layout_width="227dp"
+                android:layout_width="0dp"
                 android:layout_height="37dp"
-                android:layout_marginStart="76dp"
-                android:layout_marginLeft="76dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginLeft="35dp"
                 android:layout_marginTop="12dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginRight="50dp"
+                android:background="@drawable/edittext_backgrounf"
+
                 android:ems="10"
                 android:hint="Enter Answer"
                 android:inputType="textPersonName"
-                android:textColorHint="#1b1b1b"
+                android:paddingLeft="10dp"
+                android:textColor="#1b1b1b"
+
+
+                android:textColorHint="#1C1C1E"
                 android:textSize="15dp"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/projDescEnvReason" />
 
@@ -654,8 +814,8 @@
                 android:id="@+id/projDescDevDetails"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="35dp"
-                android:layout_marginLeft="35dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
                 android:layout_marginTop="15dp"
                 android:fontFamily="@font/sf_pro_text_regular"
                 android:text="4.5 Development Details "
@@ -669,8 +829,8 @@
                 android:id="@+id/projDescDevDetailsTech"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="50dp"
-                android:layout_marginLeft="50dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginLeft="35dp"
                 android:layout_marginTop="15dp"
                 android:fontFamily="@font/sf_pro_text_regular"
                 android:text="4.5.1 Technology (Frontend and Backend)"
@@ -682,16 +842,25 @@
 
             <EditText
                 android:id="@+id/editTextTextDetailsTech"
-                android:layout_width="227dp"
+                android:layout_width="0dp"
                 android:layout_height="37dp"
-                android:layout_marginStart="76dp"
-                android:layout_marginLeft="76dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginLeft="35dp"
                 android:layout_marginTop="12dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginRight="50dp"
+                android:background="@drawable/edittext_backgrounf"
+
                 android:ems="10"
                 android:hint="Enter Technology Details"
                 android:inputType="textPersonName"
-                android:textColorHint="#1b1b1b"
+                android:paddingLeft="10dp"
+                android:textColor="#1b1b1b"
+
+
+                android:textColorHint="#1C1C1E"
                 android:textSize="15dp"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/projDescDevDetailsTech" />
 
@@ -699,8 +868,8 @@
                 android:id="@+id/projDescDevMethod"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="50dp"
-                android:layout_marginLeft="50dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginLeft="35dp"
                 android:layout_marginTop="15dp"
                 android:fontFamily="@font/sf_pro_text_regular"
                 android:text="4.5.2 Development Methodology "
@@ -712,16 +881,25 @@
 
             <EditText
                 android:id="@+id/editTextTextDevMethod"
-                android:layout_width="227dp"
+                android:layout_width="0dp"
                 android:layout_height="37dp"
-                android:layout_marginStart="76dp"
-                android:layout_marginLeft="76dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginLeft="35dp"
                 android:layout_marginTop="12dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginRight="50dp"
+                android:background="@drawable/edittext_backgrounf"
+
                 android:ems="10"
                 android:hint="Enter Answer"
                 android:inputType="textPersonName"
-                android:textColorHint="#1b1b1b"
+                android:paddingLeft="10dp"
+                android:textColor="#1b1b1b"
+
+
+                android:textColorHint="#1C1C1E"
                 android:textSize="15dp"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/projDescDevMethod" />
 
@@ -729,8 +907,8 @@
                 android:id="@+id/projDescDevReq"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="50dp"
-                android:layout_marginLeft="50dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginLeft="35dp"
                 android:layout_marginTop="15dp"
                 android:fontFamily="@font/sf_pro_text_regular"
                 android:text="4.5.3 Development Requirement And Security "
@@ -742,16 +920,25 @@
 
             <EditText
                 android:id="@+id/editTextTextDevReq"
-                android:layout_width="227dp"
+                android:layout_width="0dp"
                 android:layout_height="37dp"
-                android:layout_marginStart="76dp"
-                android:layout_marginLeft="76dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginLeft="35dp"
                 android:layout_marginTop="12dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginRight="50dp"
+                android:background="@drawable/edittext_backgrounf"
+
                 android:ems="10"
                 android:hint="Enter Answer"
                 android:inputType="textPersonName"
-                android:textColorHint="#1b1b1b"
+                android:paddingLeft="10dp"
+                android:textColor="#1b1b1b"
+
+
+                android:textColorHint="#1C1C1E"
                 android:textSize="15dp"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/projDescDevReq" />
 
@@ -772,8 +959,8 @@
                 android:id="@+id/sysFeaturesName"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="35dp"
-                android:layout_marginLeft="35dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
                 android:layout_marginTop="15dp"
                 android:fontFamily="@font/sf_pro_text_regular"
                 android:text="5.1 Function Name"
@@ -783,16 +970,25 @@
 
             <EditText
                 android:id="@+id/editTextTextSysName"
-                android:layout_width="227dp"
+                android:layout_width="0dp"
                 android:layout_height="37dp"
-                android:layout_marginStart="56dp"
-                android:layout_marginLeft="56dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginLeft="35dp"
                 android:layout_marginTop="12dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginRight="50dp"
+                android:background="@drawable/edittext_backgrounf"
+
                 android:ems="10"
                 android:hint="Enter Function Name"
                 android:inputType="textPersonName"
-                android:textColorHint="#1b1b1b"
+                android:paddingLeft="10dp"
+                android:textColor="#1b1b1b"
+
+
+                android:textColorHint="#1C1C1E"
                 android:textSize="15dp"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/sysFeaturesName" />
 
@@ -811,16 +1007,25 @@
 
             <EditText
                 android:id="@+id/editTextTextFeaturesDesc"
-                android:layout_width="227dp"
+                android:layout_width="0dp"
                 android:layout_height="37dp"
-                android:layout_marginStart="56dp"
-                android:layout_marginLeft="56dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginLeft="35dp"
                 android:layout_marginTop="12dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginRight="50dp"
+                android:background="@drawable/edittext_backgrounf"
+
                 android:ems="10"
                 android:hint="Enter Function Description"
                 android:inputType="textPersonName"
-                android:textColorHint="#1b1b1b"
+                android:paddingLeft="10dp"
+                android:textColor="#1b1b1b"
+
+
+                android:textColorHint="#1C1C1E"
                 android:textSize="15dp"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/sysFeaturesDesc" />
 
@@ -832,23 +1037,32 @@
                 android:layout_marginLeft="35dp"
                 android:layout_marginTop="15dp"
                 android:fontFamily="@font/sf_pro_text_regular"
-                android:text="5.3 Function/Feature Requirements"
+                android:text="5.3 System Features"
                 android:textColor="#000"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/editTextTextFeaturesDesc" />
 
             <EditText
                 android:id="@+id/editTextTextFeaturesReq"
-                android:layout_width="227dp"
+                android:layout_width="0dp"
                 android:layout_height="37dp"
-                android:layout_marginStart="56dp"
-                android:layout_marginLeft="56dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginLeft="35dp"
                 android:layout_marginTop="12dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginRight="50dp"
+                android:background="@drawable/edittext_backgrounf"
+
                 android:ems="10"
-                android:hint="Enter Function/Features Requirements"
+                android:hint="Enter System Features"
                 android:inputType="textPersonName"
-                android:textColorHint="#1b1b1b"
+                android:paddingLeft="10dp"
+                android:textColor="#1b1b1b"
+
+
+                android:textColorHint="#1C1C1E"
                 android:textSize="15dp"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/sysFeaturesReq" />
 
@@ -869,8 +1083,8 @@
                 android:id="@+id/nonFunctPerReq"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="35dp"
-                android:layout_marginLeft="35dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
                 android:layout_marginTop="15dp"
                 android:fontFamily="@font/sf_pro_text_regular"
                 android:text="6.1 Performance Requirements"
@@ -880,16 +1094,25 @@
 
             <EditText
                 android:id="@+id/editTextTextPerReq"
-                android:layout_width="227dp"
+                android:layout_width="0dp"
                 android:layout_height="37dp"
-                android:layout_marginStart="56dp"
-                android:layout_marginLeft="56dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
                 android:layout_marginTop="12dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginRight="50dp"
+                android:background="@drawable/edittext_backgrounf"
+
                 android:ems="10"
                 android:hint="Enter Performance Requirements"
                 android:inputType="textPersonName"
-                android:textColorHint="#1b1b1b"
+                android:paddingLeft="10dp"
+                android:textColor="#1b1b1b"
+
+
+                android:textColorHint="#1C1C1E"
                 android:textSize="15dp"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/nonFunctPerReq" />
 
@@ -897,8 +1120,8 @@
                 android:id="@+id/nonFunctSecReq"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="35dp"
-                android:layout_marginLeft="35dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
                 android:layout_marginTop="15dp"
                 android:fontFamily="@font/sf_pro_text_regular"
                 android:text="6.2 Security Requirements "
@@ -908,16 +1131,25 @@
 
             <EditText
                 android:id="@+id/editTextTextSecReq"
-                android:layout_width="227dp"
+                android:layout_width="0dp"
                 android:layout_height="37dp"
-                android:layout_marginStart="56dp"
-                android:layout_marginLeft="56dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
                 android:layout_marginTop="12dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginRight="50dp"
+                android:background="@drawable/edittext_backgrounf"
+
                 android:ems="10"
                 android:hint="Enter Security Requirements"
                 android:inputType="textPersonName"
-                android:textColorHint="#1b1b1b"
+                android:paddingLeft="10dp"
+                android:textColor="#1b1b1b"
+
+
+                android:textColorHint="#1C1C1E"
                 android:textSize="15dp"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/nonFunctSecReq" />
 
@@ -925,8 +1157,8 @@
                 android:id="@+id/softQuality"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="35dp"
-                android:layout_marginLeft="35dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
                 android:layout_marginTop="15dp"
                 android:fontFamily="@font/sf_pro_text_regular"
                 android:text="6.3 Software Quality Requirements"
@@ -936,16 +1168,25 @@
 
             <EditText
                 android:id="@+id/editTextTextSoftQuality"
-                android:layout_width="227dp"
+                android:layout_width="0dp"
                 android:layout_height="37dp"
-                android:layout_marginStart="56dp"
-                android:layout_marginLeft="56dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
                 android:layout_marginTop="12dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginRight="50dp"
+                android:background="@drawable/edittext_backgrounf"
+
                 android:ems="10"
                 android:hint="Enter Software Quality Requirements"
                 android:inputType="textPersonName"
-                android:textColorHint="#1b1b1b"
+                android:paddingLeft="10dp"
+                android:textColor="#1b1b1b"
+
+
+                android:textColorHint="#1C1C1E"
                 android:textSize="15dp"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/softQuality" />
 
@@ -953,8 +1194,8 @@
                 android:id="@+id/othReq"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="35dp"
-                android:layout_marginLeft="35dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
                 android:layout_marginTop="15dp"
                 android:fontFamily="@font/sf_pro_text_regular"
                 android:text="6.4 Other Requirements"
@@ -964,16 +1205,25 @@
 
             <EditText
                 android:id="@+id/editTextTextOthReq"
-                android:layout_width="227dp"
+                android:layout_width="0dp"
                 android:layout_height="37dp"
-                android:layout_marginStart="56dp"
-                android:layout_marginLeft="56dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
                 android:layout_marginTop="12dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginRight="50dp"
+                android:background="@drawable/edittext_backgrounf"
+
                 android:ems="10"
                 android:hint="Enter Other Requirements"
                 android:inputType="textPersonName"
-                android:textColorHint="#1b1b1b"
+                android:paddingLeft="10dp"
+                android:textColor="#1b1b1b"
+
+
+                android:textColorHint="#1C1C1E"
                 android:textSize="15dp"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/othReq" />
 
@@ -998,6 +1248,7 @@
                 android:layout_marginLeft="20dp"
                 android:layout_marginTop="15dp"
                 android:text="Upload Image"
+                android:textAllCaps="false"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/srsDiag" />
 
@@ -1018,8 +1269,8 @@
                 android:id="@+id/timeline1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="35dp"
-                android:layout_marginLeft="35dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
                 android:layout_marginTop="15dp"
                 android:fontFamily="@font/sf_pro_text_regular"
                 android:text="8.1 Timeline"
@@ -1029,16 +1280,25 @@
 
             <EditText
                 android:id="@+id/editTextTextTimeline"
-                android:layout_width="227dp"
+                android:layout_width="0dp"
                 android:layout_height="37dp"
-                android:layout_marginStart="56dp"
-                android:layout_marginLeft="56dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
                 android:layout_marginTop="12dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginRight="50dp"
+                android:background="@drawable/edittext_backgrounf"
+
                 android:ems="10"
                 android:hint="Enter Timeline"
                 android:inputType="textPersonName"
-                android:textColorHint="#1b1b1b"
+                android:paddingLeft="10dp"
+                android:textColor="#1b1b1b"
+
+
+                android:textColorHint="#1C1C1E"
                 android:textSize="15dp"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/timeline1" />
 
@@ -1046,8 +1306,8 @@
                 android:id="@+id/budget"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="35dp"
-                android:layout_marginLeft="35dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
                 android:layout_marginTop="15dp"
                 android:fontFamily="@font/sf_pro_text_regular"
                 android:text="8.2 Budget"
@@ -1057,16 +1317,25 @@
 
             <EditText
                 android:id="@+id/editTextTextBudget"
-                android:layout_width="227dp"
+                android:layout_width="0dp"
                 android:layout_height="37dp"
-                android:layout_marginStart="56dp"
-                android:layout_marginLeft="56dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
                 android:layout_marginTop="12dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginRight="50dp"
+                android:background="@drawable/edittext_backgrounf"
+
                 android:ems="10"
                 android:hint="Enter Budget"
                 android:inputType="textPersonName"
-                android:textColorHint="#1b1b1b"
+                android:paddingLeft="10dp"
+                android:textColor="#1b1b1b"
+
+
+                android:textColorHint="#1C1C1E"
                 android:textSize="15dp"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/budget" />
 
@@ -1074,8 +1343,8 @@
                 android:id="@+id/risks"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="35dp"
-                android:layout_marginLeft="35dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
                 android:layout_marginTop="15dp"
                 android:fontFamily="@font/sf_pro_text_regular"
                 android:text="8.3 Risks"
@@ -1085,16 +1354,25 @@
 
             <EditText
                 android:id="@+id/editTextTextRisks"
-                android:layout_width="227dp"
+                android:layout_width="0dp"
                 android:layout_height="37dp"
-                android:layout_marginStart="56dp"
-                android:layout_marginLeft="56dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
                 android:layout_marginTop="12dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginRight="50dp"
+                android:background="@drawable/edittext_backgrounf"
+
                 android:ems="10"
                 android:hint="Enter Risks"
                 android:inputType="textPersonName"
-                android:textColorHint="#1b1b1b"
+                android:paddingLeft="10dp"
+                android:textColor="#1b1b1b"
+
+
+                android:textColorHint="#1C1C1E"
                 android:textSize="15dp"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/risks" />
 
@@ -1113,18 +1391,46 @@
 
             <EditText
                 android:id="@+id/editTextTextFuturePlans"
-                android:layout_width="227dp"
+                android:layout_width="0dp"
                 android:layout_height="37dp"
-                android:layout_marginStart="56dp"
-                android:layout_marginLeft="56dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
                 android:layout_marginTop="12dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginRight="50dp"
+                android:background="@drawable/edittext_backgrounf"
+
                 android:ems="10"
                 android:hint="Enter Future Plans"
                 android:inputType="textPersonName"
-                android:textColorHint="#1b1b1b"
+                android:paddingLeft="10dp"
+                android:textColor="#1b1b1b"
+
+
+                android:textColorHint="#1C1C1E"
                 android:textSize="15dp"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/futurePlans" />
+
+            <Button
+                android:id="@+id/submitButton"
+                android:layout_width="0dp"
+
+                android:layout_height="53dp"
+                android:layout_marginStart="130dp"
+                android:layout_marginLeft="130dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="130dp"
+                android:layout_marginRight="130dp"
+
+                android:layout_marginBottom="30dp"
+                android:text="Submit"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/editTextTextFuturePlans" />
+
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>
