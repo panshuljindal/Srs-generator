@@ -1,4 +1,4 @@
-package com.adgvit.srsgenerator;
+package com.panshul.srsgenerator;
 
 import org.junit.Test;
 
